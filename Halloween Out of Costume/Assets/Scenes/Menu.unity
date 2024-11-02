@@ -302,8 +302,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -241.50003, y: 0.000034332275}
-  m_SizeDelta: {x: 200, y: 200}
+  m_AnchoredPosition: {x: -0.000049591, y: -254}
+  m_SizeDelta: {x: 508.3, y: 180.85}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &634853341
 MonoBehaviour:
@@ -422,8 +422,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 241.49992, y: 0.000034332275}
-  m_SizeDelta: {x: 200, y: 200}
+  m_AnchoredPosition: {x: 0.0000038147, y: 236}
+  m_SizeDelta: {x: 508.3, y: 192.82}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &863792048
 MonoBehaviour:
@@ -566,8 +566,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.48200002, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.63300896, y: 0.000034332275}
-  m_SizeDelta: {x: 187.26596, y: 200}
+  m_AnchoredPosition: {x: 0.000019073, y: 0}
+  m_SizeDelta: {x: 496, y: 195.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1016025957
 MonoBehaviour:
@@ -869,10 +869,10 @@ RectTransform:
   - {fileID: 634853340}
   m_Father: {fileID: 1030696771}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -32.5, y: -9}
-  m_SizeDelta: {x: 683, y: 200}
+  m_AnchorMin: {x: 0.46639583, y: 0.41378763}
+  m_AnchorMax: {x: 0.46639583, y: 0.41378763}
+  m_AnchoredPosition: {x: -521.01, y: 36.03}
+  m_SizeDelta: {x: 551.37, y: 724.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1374409458
 MonoBehaviour:
@@ -996,7 +996,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000019073, y: -0.010996}
+  m_AnchoredPosition: {x: 0, y: 0.010925}
   m_SizeDelta: {x: 1920, y: 1080.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1939194677
