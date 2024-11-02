@@ -1,0 +1,4 @@
+repository "Halloween Out of Costume_1@xxshadowplaymaster@cloud"
+  path "/"
+    br "/main"
+    co "/main"
