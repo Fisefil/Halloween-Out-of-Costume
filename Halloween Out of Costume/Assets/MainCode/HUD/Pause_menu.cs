@@ -1,14 +1,22 @@
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
-public class pause_menu : MonoBehaviour
+public class Pause_menu : MonoBehaviour
 {
     public static bool GameIsPaused = false;
-
     public GameObject pauseMenuUI;
+
+    public Slider volumeSlider;
+
+    void Start()
+    {
+        volumeSlider.value = AudioListener.volume;
+        volumeSlider.onValueChanged.AddListener(SetVolume);
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -23,6 +31,7 @@ public class pause_menu : MonoBehaviour
             }
         }
     }
+
     public void Resume()
     {
         pauseMenuUI.SetActive(false);
@@ -43,6 +52,16 @@ public class pause_menu : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene("menu");
     }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+
+    public void SetVolume(float volume)
+    {
+        AudioListener.volume = volume;
+    }
 }
-
-
