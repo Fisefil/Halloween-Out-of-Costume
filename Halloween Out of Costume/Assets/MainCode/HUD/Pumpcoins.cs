@@ -16,8 +16,11 @@ public class Pumpcoins : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.C))
         {
-            Coins += 1;
-            count.text = Coins.ToString();
+            if (Coins < 50)
+            {
+                Coins += 1;
+                count.text = Coins.ToString();
+            }
         }
     }
 }
