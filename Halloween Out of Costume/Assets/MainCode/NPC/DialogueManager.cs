@@ -19,9 +19,9 @@ public class DialogueManager : MonoBehaviour
 
         dialogueLines = new string[]
         {
-            "Один",
-            "Два",
-            "Триии"
+            "First",
+            "Second",
+            "Third"
         };
 
         npcButton.onClick.AddListener(StartDialogue);
