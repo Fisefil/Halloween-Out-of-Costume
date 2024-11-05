@@ -4,80 +4,66 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public GameObject dialoguePanel;
+    public GameObject Dialogues;
     public Text dialogueText;
-    public Button npcButton;
 
-    private string[] dialogueLines;
-    private int currentLineIndex;
-    private float typingSpeed = 0.05f;
-    private bool isTyping;
+    public string[] lines;
+    public float speedText = 0.06f;
 
-    void Start()
+    private int index;
+
+    private void Start()
     {
-        dialoguePanel.SetActive(false);
-
-        dialogueLines = new string[]
+        dialogueText.text = string.Empty;
+        if (lines != null && lines.Length > 0)
         {
-            "Один",
-            "Два",
-            "Триии"
-        };
-
-        npcButton.onClick.AddListener(StartDialogue);
-    }
-
-    void Update()
-    {
-        if (dialoguePanel.activeSelf && Input.GetMouseButtonDown(0) && !isTyping)
-        {
-            NextLine();
-        }
-    }
-
-    public void StartDialogue()
-    {
-        dialoguePanel.SetActive(true);
-        currentLineIndex = 0;
-        ShowLine();
-    }
-
-    private void ShowLine()
-    {
-        if (!isTyping)
-        {
-            StopAllCoroutines();
-            StartCoroutine(TypeLine(dialogueLines[currentLineIndex]));
-        }
-    }
-
-    private IEnumerator TypeLine(string line)
-    {
-        isTyping = true;
-        dialogueText.text = "";
-        foreach (char letter in line.ToCharArray())
-        {
-            dialogueText.text += letter;
-            yield return new WaitForSeconds(typingSpeed);
-        }
-        isTyping = false;
-    }
-
-    public void NextLine()
-    {
-        currentLineIndex++;
-        if (currentLineIndex < dialogueLines.Length)
-        {
-            ShowLine();
+            StartDialogue();
         }
         else
         {
-            EndDialogue();
+            Debug.LogError("хана");
         }
     }
 
-    private void EndDialogue()
+    void StartDialogue()
     {
-        dialoguePanel.SetActive(false);
+        index = 0;
+        StartCoroutine(TypeLine());
+    }
+
+    IEnumerator TypeLine()
+    {
+        foreach (char c in lines[index].ToCharArray())
+        {
+            dialogueText.text += c;
+            yield return new WaitForSeconds(speedText);
+        }
+    }
+
+    public void SkipTextClick()
+    {
+        if (dialogueText.text == lines[index])
+        {
+            NextLine();
+        }
+        else
+        {
+            StopAllCoroutines();
+            dialogueText.text = lines[index];
+        }
+    }
+
+    private void NextLine()
+    {
+        if (index < lines.Length - 1)
+        {
+            index++;
+            dialogueText.text = string.Empty;
+            StartCoroutine(TypeLine());
+        }
+        else
+        {
+            gameObject.SetActive(false);
+        }
     }
 }

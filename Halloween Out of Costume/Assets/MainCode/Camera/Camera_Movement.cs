@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraMove : MonoBehaviour  //Всё по шаблону, аж страшно
+public class CameraMove : MonoBehaviour
 {
     public Transform target;
     public float speed = 5f;
