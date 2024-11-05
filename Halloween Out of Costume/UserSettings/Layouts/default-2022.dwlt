@@ -22,7 +22,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Title: Game
+=======
+  m_Title: Console
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
   m_Title: Console
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
@@ -63,7 +67,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 117
+=======
+  controlID: 105
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
   controlID: 105
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
@@ -251,7 +259,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 42
+=======
+  controlID: 41
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
   controlID: 41
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
@@ -288,7 +300,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   controlID: 43
+=======
+  controlID: 42
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
   controlID: 42
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
@@ -506,7 +522,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     - Assets/Audio
+=======
+    - Assets/Scenes
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
     - Assets/Scenes
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
@@ -526,10 +546,13 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - Assets/Audio
   m_LastFoldersGridSize: 71
   m_LastProjectPath: C:\Users\user\Documents\GitHub\Halloween-Out-of-Costume\Halloween
 =======
+=======
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
@@ -546,9 +569,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_SelectedIDs: c0250000
     m_LastClickedID: 9664
     m_ExpandedIDs: 00000000266200002e62000032620000e27d000000ca9a3bffffff7f
+=======
+    m_SelectedIDs: 6a620000
+    m_LastClickedID: 25194
+    m_ExpandedIDs: 000000005862000000ca9a3bffffff7f
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
     m_SelectedIDs: 6a620000
     m_LastClickedID: 25194
@@ -594,7 +623,11 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000026620000
+=======
+    m_ExpandedIDs: 0000000058620000
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
     m_ExpandedIDs: 0000000058620000
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
@@ -746,9 +779,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       m_SelectedIDs: 90b4ffff
       m_LastClickedID: -19312
       m_ExpandedIDs: f6b4ffff78b6ffff48deffff10e9ffffd8ecffff50edffff56f7ffff44f9ffffcefaffff946200001a63000022630000cc650000526600005a660000907300005a75000074750000d0790000dc7900000c7a0000327a0000427a00006a7a0000
+=======
+      m_SelectedIDs: 9a630000
+      m_LastClickedID: 25498
+      m_ExpandedIDs: faf6ffff4cf8ffffb4620000e4620000
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
       m_SelectedIDs: 9a630000
       m_LastClickedID: 25498
@@ -1159,9 +1198,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: {x: 2.125987, y: 1.4064081, z: 0.0057006767}
     speed: 2
     m_Value: {x: 2.125987, y: 1.4064081, z: 0.0057006767}
+=======
+    m_Target: {x: 1.2955792, y: 1.40688, z: 0.00006903638}
+    speed: 2
+    m_Value: {x: 1.2955792, y: 1.40688, z: 0.00006903638}
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
     m_Target: {x: 1.2955792, y: 1.40688, z: 0.00006903638}
     speed: 2
@@ -1229,9 +1274,15 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_Target: 9.4292755
     speed: 2
     m_Value: 9.4292755
+=======
+    m_Target: 8.005967
+    speed: 2
+    m_Value: 8.005967
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
     m_Target: 8.005967
     speed: 2

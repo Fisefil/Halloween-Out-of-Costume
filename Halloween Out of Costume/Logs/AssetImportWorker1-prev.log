@@ -18,7 +18,11 @@ Logs/AssetImportWorker1.log
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 9912
+=======
+9317
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 9317
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
@@ -64,12 +68,21 @@ C:/Users/xxsha/Documents/Halloween-Out-of-Costume/Halloween-Out-of-Costume/Hallo
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Player connection [30368] Host "[IP] 26.229.114.181 [Port] 0 [Flags] 2 [Guid] 3310395882 [EditorId] 3310395882 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RP4B17P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [30368] Host "[IP] 26.229.114.181 [Port] 0 [Flags] 2 [Guid] 3310395882 [EditorId] 3310395882 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RP4B17P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
 Refreshing native plugins compatible for Editor in 26.15 ms, found 4 plugins.
+=======
+Player connection [15544] Host "[IP] 26.229.114.181 [Port] 0 [Flags] 2 [Guid] 2872061399 [EditorId] 2872061399 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RP4B17P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15544] Host "[IP] 26.229.114.181 [Port] 0 [Flags] 2 [Guid] 2872061399 [EditorId] 2872061399 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RP4B17P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 57.00 ms, found 4 plugins.
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 Player connection [15544] Host "[IP] 26.229.114.181 [Port] 0 [Flags] 2 [Guid] 2872061399 [EditorId] 2872061399 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-RP4B17P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
@@ -112,7 +125,11 @@ Mono config path = 'D:/Programs/UnityHUB/2022.3.21f1/Editor/Data/MonoBleedingEdg
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56424
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
@@ -130,8 +147,13 @@ Register platform support module: D:/Programs/UnityHUB/2022.3.21f1/Editor/Data/P
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Registered in 0.009416 seconds.
 - Loaded All Assemblies, in  0.465 seconds
+=======
+Registered in 0.016750 seconds.
+- Loaded All Assemblies, in  0.582 seconds
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 Registered in 0.016750 seconds.
 - Loaded All Assemblies, in  0.582 seconds
@@ -148,6 +170,7 @@ Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -169,11 +192,17 @@ Domain Reload Profiling: 898ms
 Domain Reload Profiling: 898ms
 	BeginReloadAssembly (255ms)
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
+=======
+- Finished resetting the current domain, in  0.316 seconds
+Domain Reload Profiling: 898ms
+	BeginReloadAssembly (255ms)
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -271,6 +300,30 @@ Domain Reload Profiling: 898ms
 			ProcessInitializeOnLoadAttributes (171ms)
 			ProcessInitializeOnLoadMethodAttributes (60ms)
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
+=======
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (188ms)
+		LoadAssemblies (256ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (183ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (254ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (171ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -281,8 +334,13 @@ Begin MonoManager ReloadAssembly
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.985 seconds
 Refreshing native plugins compatible for Editor in 9.92 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in  0.975 seconds
+Refreshing native plugins compatible for Editor in 8.99 ms, found 4 plugins.
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 - Loaded All Assemblies, in  0.975 seconds
 Refreshing native plugins compatible for Editor in 8.99 ms, found 4 plugins.
@@ -306,9 +364,15 @@ Mono: successfully reloaded assembly
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Finished resetting the current domain, in  1.008 seconds
 Domain Reload Profiling: 1973ms
 	BeginReloadAssembly (189ms)
+=======
+- Finished resetting the current domain, in  1.073 seconds
+Domain Reload Profiling: 2043ms
+	BeginReloadAssembly (196ms)
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 - Finished resetting the current domain, in  1.073 seconds
 Domain Reload Profiling: 2043ms
@@ -328,6 +392,7 @@ Domain Reload Profiling: 2043ms
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -409,6 +474,25 @@ Domain Reload Profiling: 2043ms
 		SetupLoadedEditorAssemblies (873ms)
 			LogAssemblyErrors (0ms)
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
+=======
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (680ms)
+		LoadAssemblies (606ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (162ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1073ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (873ms)
+			LogAssemblyErrors (0ms)
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
@@ -416,6 +500,9 @@ Domain Reload Profiling: 2043ms
 			ProcessInitializeOnLoadAttributes (736ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
+=======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
@@ -426,6 +513,7 @@ Domain Reload Profiling: 2043ms
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -441,6 +529,8 @@ Total: 4.467300 ms (FindLiveObjects: 0.352100 ms CreateObjectMapping: 0.101100 m
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
+=======
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
 Refreshing native plugins compatible for Editor in 10.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -450,6 +540,9 @@ Memory consumption went from 143.7 MB to 143.6 MB.
 Total: 4.063600 ms (FindLiveObjects: 0.446100 ms CreateObjectMapping: 0.131700 ms MarkObjects: 3.328400 ms  DeleteObjects: 0.155100 ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
+=======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
@@ -474,6 +567,7 @@ Received Import Request.
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   Time since last request: 187049.729881 seconds.
   path: Assets/MainCode/Game Behavior
   artifactKey: Guid(04dc405cf03da9b449fe92437bf1fb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -491,12 +585,17 @@ Start importing Assets/MainCode using Guid(9ded5873211b4ee4fb989962a103eace) Imp
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
+=======
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
   Time since last request: 184769.060690 seconds.
   path: Assets/Scenes/World.unity
   artifactKey: Guid(cac1ce7c8a0003841850f660b8b4fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/World.unity using Guid(cac1ce7c8a0003841850f660b8b4fa66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb81e2be42a53683500413da6651bb3') in 0.006608 seconds
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
+=======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
@@ -510,8 +609,13 @@ Begin MonoManager ReloadAssembly
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Loaded All Assemblies, in  3.973 seconds
 Refreshing native plugins compatible for Editor in 7.93 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in  0.664 seconds
+Refreshing native plugins compatible for Editor in 17.07 ms, found 4 plugins.
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 - Loaded All Assemblies, in  0.664 seconds
 Refreshing native plugins compatible for Editor in 17.07 ms, found 4 plugins.
@@ -531,6 +635,7 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1150,10 +1255,16 @@ Domain Reload Profiling: 2272ms
 Domain Reload Profiling: 2272ms
 	BeginReloadAssembly (229ms)
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
+=======
+- Finished resetting the current domain, in  1.612 seconds
+Domain Reload Profiling: 2272ms
+	BeginReloadAssembly (229ms)
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (15ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 		CreateAndSetChildDomain (68ms)
@@ -1232,6 +1343,28 @@ Total: 5.472500 ms (FindLiveObjects: 0.625200 ms CreateObjectMapping: 0.224100 m
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
+=======
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (334ms)
+		LoadAssemblies (445ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (13ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1613ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (727ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 			BeforeProcessingInitializeOnLoad (79ms)
 			ProcessInitializeOnLoadAttributes (602ms)
 			ProcessInitializeOnLoadMethodAttributes (32ms)
@@ -1246,6 +1379,9 @@ Unloading 36 unused Assets / (35.2 KB). Loaded Objects now: 4506.
 Memory consumption went from 142.6 MB to 142.6 MB.
 Total: 4.051700 ms (FindLiveObjects: 0.357700 ms CreateObjectMapping: 0.199500 ms MarkObjects: 3.419100 ms  DeleteObjects: 0.073800 ms)
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
+=======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
@@ -1269,8 +1405,13 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Loaded All Assemblies, in  0.609 seconds
 Refreshing native plugins compatible for Editor in 7.87 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in  3.524 seconds
+Refreshing native plugins compatible for Editor in 7.50 ms, found 4 plugins.
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 - Loaded All Assemblies, in  3.524 seconds
 Refreshing native plugins compatible for Editor in 7.50 ms, found 4 plugins.
@@ -1286,6 +1427,7 @@ Native extension for WebGL target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 - Finished resetting the current domain, in  1.654 seconds
@@ -1470,6 +1612,35 @@ Domain Reload Profiling: 7202ms
 			InitializePlatformSupportModulesInManaged (16ms)
 			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
+=======
+- Finished resetting the current domain, in  3.678 seconds
+Domain Reload Profiling: 7202ms
+	BeginReloadAssembly (1678ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (250ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (3ms)
+		CreateAndSetChildDomain (865ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (1726ms)
+		LoadAssemblies (1959ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (55ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (50ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (3679ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (861ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 - Finished resetting the current domain, in  3.678 seconds
 Domain Reload Profiling: 7202ms
@@ -2816,6 +2987,9 @@ Memory consumption went from 181.4 MB to 181.4 MB.
 Total: 4.129800 ms (FindLiveObjects: 0.381100 ms CreateObjectMapping: 0.172900 ms MarkObjects: 3.448400 ms  DeleteObjects: 0.125800 ms)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
+=======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
 =======
 >>>>>>> 010d96d83629ca0139d529f550b0212145b985d2
