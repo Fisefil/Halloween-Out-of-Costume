@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-    public GameObject Dialogues;
     public Text dialogueText;
 
     public List<string> Lines = new List<string>();
