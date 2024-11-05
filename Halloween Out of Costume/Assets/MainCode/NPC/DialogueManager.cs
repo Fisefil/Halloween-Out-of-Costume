@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,21 +8,26 @@ public class DialogueManager : MonoBehaviour
     public GameObject Dialogues;
     public Text dialogueText;
 
-    public string[] lines;
+    public List<string> Lines = new List<string>();
     public float speedText = 0.06f;
 
     private int index;
 
     private void Start()
     {
+        Lines.Add("Test1");
+        Lines.Add("Test2");
+        Lines.Add("Test3");
+
         dialogueText.text = string.Empty;
-        if (lines != null && lines.Length > 0)
+        if (Lines != null && Lines.Count > 0)
         {
             StartDialogue();
+            Debug.Log("Worked");
         }
         else
         {
-            Debug.LogError("хана");
+            Debug.LogError("NumofData = " + Lines.Count + " + Lines = " + Lines);
         }
     }
 
@@ -33,7 +39,7 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator TypeLine()
     {
-        foreach (char c in lines[index].ToCharArray())
+        foreach (char c in Lines[index].ToCharArray())
         {
             dialogueText.text += c;
             yield return new WaitForSeconds(speedText);
@@ -42,20 +48,20 @@ public class DialogueManager : MonoBehaviour
 
     public void SkipTextClick()
     {
-        if (dialogueText.text == lines[index])
+        if (dialogueText.text == Lines[index])
         {
             NextLine();
         }
         else
         {
             StopAllCoroutines();
-            dialogueText.text = lines[index];
+            dialogueText.text = Lines[index];
         }
     }
 
     private void NextLine()
     {
-        if (index < lines.Length - 1)
+        if (index < Lines.Count - 1)
         {
             index++;
             dialogueText.text = string.Empty;
