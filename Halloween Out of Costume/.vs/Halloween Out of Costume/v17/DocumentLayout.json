@@ -1,104 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{05B798A2-85E1-614C-6126-D42E9B61A2EF}|Assembly-CSharp.csproj|c:\\users\\xxsha\\documents\\halloween-out-of-costume\\halloween-out-of-costume\\halloween out of costume\\assets\\maincode\\menu\\saxbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05B798A2-85E1-614C-6126-D42E9B61A2EF}|Assembly-CSharp.csproj|solutionrelative:assets\\maincode\\menu\\saxbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05B798A2-85E1-614C-6126-D42E9B61A2EF}|Assembly-CSharp.csproj|C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\assets\\maincode\\menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05B798A2-85E1-614C-6126-D42E9B61A2EF}|Assembly-CSharp.csproj|solutionrelative:assets\\maincode\\menu\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05B798A2-85E1-614C-6126-D42E9B61A2EF}|Assembly-CSharp.csproj|C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\assets\\maincode\\menu\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05B798A2-85E1-614C-6126-D42E9B61A2EF}|Assembly-CSharp.csproj|solutionrelative:assets\\maincode\\menu\\startbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05B798A2-85E1-614C-6126-D42E9B61A2EF}|Assembly-CSharp.csproj|c:\\users\\xxsha\\documents\\halloween-out-of-costume\\halloween-out-of-costume\\halloween out of costume\\assets\\maincode\\menu\\textlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05B798A2-85E1-614C-6126-D42E9B61A2EF}|Assembly-CSharp.csproj|solutionrelative:assets\\maincode\\menu\\textlanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{05B798A2-85E1-614C-6126-D42E9B61A2EF}|Assembly-CSharp.csproj|C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\assets\\maincode\\menu\\localizationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{05B798A2-85E1-614C-6126-D42E9B61A2EF}|Assembly-CSharp.csproj|solutionrelative:assets\\maincode\\menu\\localizationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SaxButton.cs",
-              "DocumentMoniker": "C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\Assets\\MainCode\\Menu\\SaxButton.cs",
-              "RelativeDocumentMoniker": "Assets\\MainCode\\Menu\\SaxButton.cs",
-              "ToolTip": "C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\Assets\\MainCode\\Menu\\SaxButton.cs",
-              "RelativeToolTip": "Assets\\MainCode\\Menu\\SaxButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T16:38:32.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TextLanguage.cs",
-              "DocumentMoniker": "C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\Assets\\MainCode\\Menu\\TextLanguage.cs",
-              "RelativeDocumentMoniker": "Assets\\MainCode\\Menu\\TextLanguage.cs",
-              "ToolTip": "C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\Assets\\MainCode\\Menu\\TextLanguage.cs",
-              "RelativeToolTip": "Assets\\MainCode\\Menu\\TextLanguage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T16:37:49.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StartButton.cs",
-              "DocumentMoniker": "C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\Assets\\MainCode\\Menu\\StartButton.cs",
-              "RelativeDocumentMoniker": "Assets\\MainCode\\Menu\\StartButton.cs",
-              "ToolTip": "C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\Assets\\MainCode\\Menu\\StartButton.cs",
-              "RelativeToolTip": "Assets\\MainCode\\Menu\\StartButton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T16:37:44.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\Assets\\MainCode\\Menu\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Assets\\MainCode\\Menu\\MainMenu.cs",
-              "ToolTip": "C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\Assets\\MainCode\\Menu\\MainMenu.cs",
-              "RelativeToolTip": "Assets\\MainCode\\Menu\\MainMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T16:37:41.786Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LocalizationManager.cs",
-              "DocumentMoniker": "C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\Assets\\MainCode\\Menu\\LocalizationManager.cs",
-              "RelativeDocumentMoniker": "Assets\\MainCode\\Menu\\LocalizationManager.cs",
-              "ToolTip": "C:\\Users\\xxsha\\Documents\\Halloween-Out-of-Costume\\Halloween-Out-of-Costume\\Halloween Out of Costume\\Assets\\MainCode\\Menu\\LocalizationManager.cs",
-              "RelativeToolTip": "Assets\\MainCode\\Menu\\LocalizationManager.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T16:37:37.778Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SaxButton : MonoBehaviour
 {
-    private AudioSource SaxTime;
+    public AudioSource SaxTime;
     public void Sax()
     {
         SaxTime = GetComponent<AudioSource>();
